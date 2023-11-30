@@ -55,4 +55,18 @@ Candidates will be evaluated based on their ability to:
 - Implement CRUD operations for tasks.
 - Handle form validation and user input.
 - Design a user-friendly interface.
+
+
+**Create a Django Project and App:-**
+
+--->Create a Django project
+django-admin startproject todo_list
+
+--->Create a Django app within the project
+cd todo_list
+python manage.py startapp base
 - Ensure data security and user authorization.
+
+**Define Models:-**
+
+In your base/models.py file, define the models for users and tasks:
